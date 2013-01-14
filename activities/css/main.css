@@ -2,15 +2,36 @@
 		font: "helvetica neue", Arial, helvetica, sans-serif; 
 		max-width: 650px; /* 650px; */ 
 		margin: 0 auto; 
-		background-color: #008000;
+		background-color: #3ff;
 }
 
-h1 { font-size: 200%
+h1 { 
+	font-size: 200%;
+	border-style: solid;
+	border-color: #000;
+	text-align: center;
+	background-color: #06c;
 }
 
 h2, h3, h4 {
+			display: block; 
 			font-size: 150%;
-			border-style: 1px solid #000;
+			border-style: solid;
+			border-color: #000;
+			text-align: center;
+			background-color: #06c;
+}
+
+p { 
+	display: block;
+	width: 600 px;
+}
+
+a:hover{ color: #800000;
+}
+
+a:active {
+		color: #900;
 }
 
 
