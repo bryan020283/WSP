@@ -2,3 +2,56 @@
 @import "normalize.css";
 
 /* ---------Layout changes -----------*/
+
+nav li { 
+		 display: block;
+         width: 179px;
+		 float: left;
+		 background-color: #c02509;
+		 text-align: center;
+}
+
+a:link {
+		text-decoration: none;
+		display: block;
+		color: #000;
+
+
+}
+
+a:hover{ 
+		 background-color: #000;
+		 color: #fff;
+		 text-decoration: none;
+		 display: block;
+}
+
+a:visited: {
+			 color: c0f;
+}
+
+h1 {
+
+	width: 420px;
+}
+
+
+
+
+
+
+
+
+/*------------------ MEDIA QUERIES  --------------------*/
+
+/* Tablet portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* mobile landscape size to tablet portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+ /* iPhone 5 only -- I have the iphone 5 now so I wanted to use this media querie specification --- */
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
