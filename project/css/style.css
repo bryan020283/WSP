@@ -6,11 +6,13 @@
 
 #sitewrapper { width: 959px;
 			   margin: 0auto;
+			   background-color: #f26522;
+			   margin-top: 0;
 } 
 
 body {margin: 0 auto;}
 
-nav {
+nav {width: 959px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
@@ -20,7 +22,6 @@ nav {
 ul {	-webkit-border-radius: 7px;
 		-moz-border-radius: 7px;
 		border-radius: 7px;
-		width: 950px;
 		margin: 0 auto;
 		list-style-type: none;
 		padding: 0;
@@ -29,7 +30,7 @@ ul {	-webkit-border-radius: 7px;
 
 
 nav li { display: block;
-         width: 157px;
+         width: 159.83333px;
          height: 38px;
          float: left;
 		 background-color: #c02509;
@@ -49,6 +50,7 @@ p{	font-family: georgia;
 	clear: both;
 }
 
+article {border: 2px solid #074d46;}
 a:link {
 		text-decoration: none;
 		color: #000;
