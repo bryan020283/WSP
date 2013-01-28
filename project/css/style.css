@@ -16,6 +16,7 @@ nav {width: 959px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
+	margin-bottom: 30px;
 	
 }
 
@@ -35,15 +36,13 @@ nav li { display: block;
          float: left;
 		 background-color: #c02509;
 		 text-align: center;
-}
+		
+}	
 
-li a {	 width: 157 px;
-		 height: 38px;
-}
 
-nav a {	
-		line-height: 38px;
-		display: block;
+nav a {	line-height: 38px;
+		vertical-align: center; 
+		
 }
 
 p{	font-family: georgia;
