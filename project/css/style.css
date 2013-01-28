@@ -32,8 +32,7 @@ a:visited: {
 
 h1 a:hover {
 	width: 375px;
-	background-color: none;
-	diplay: none;
+	background-color: #fff;
 }
 
 
