@@ -12,6 +12,9 @@
 
 body {margin: 0 auto;}
 
+h1 {margin: 0;
+	padding: 0;}
+
 nav {width: 959px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
