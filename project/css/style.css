@@ -32,11 +32,42 @@ a:visited: {
 
 h1 {
 
-	width: 420px;
+	background: url('images/Truffles-Trifles-logo.png') no-repeat left top;
+	width: 200px;
+	height: 100px;
+}
+
+header h1 a{
+			width: 200px;
+			height: 100px;
+			display: block;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
 }
 
 
+h1.technique-eight {         
 
+width: 350px; height: 75px;             
+
+position: relative;
+
+}              
+
+ 
+
+h1.technique-eight span {                              
+
+background: url("images/Truffles-Trifles-logo.png");
+
+position: absolute;                           
+
+width: 100%;                      
+
+height: 100%;
+
+}
 
 
 
