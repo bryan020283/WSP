@@ -6,14 +6,20 @@
 
 #sitewrapper { width: 959px;
 			   margin: 0auto;
-			   background-color: #f26522;
+			   /*background-color: #f26522; */			   
+			   background: url(https://photos-1.dropbox.com/t/0/AADVRx14ZreLM_N42q8tCsC03p-IO48LxlIW-PBgRp1_ng/10/136569260/png/32x32/6/_/1/2/escheresque_ste.png/mPuI7CJv6ukC-3-YUopB23q9feFVpte2VljGq38rlfQ?size=800x600&size_mode=2);
 			   margin-top: 0;
 } 
+img { border: 2px solid #074d46;
+}
 
 body {margin: 0 auto;}
 
 h1 {margin: 0;
-	padding: 0;}
+	padding: 0;
+}
+
+h2, h3 {text-shadow: 3px 3px 3px #c02509;}
 
 nav {width: 959px;
 	-webkit-border-radius: 7px;
@@ -52,7 +58,10 @@ p{	font-family: georgia;
 	clear: both;
 }
 
-article {border: 2px solid #074d46;}
+article {border: 2px solid #074d46;
+		 background-color: #7b9e9c;
+}
+
 a:link {
 		text-decoration: none;
 		color: #000;
