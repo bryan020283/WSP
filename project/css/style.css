@@ -3,23 +3,58 @@
 
 /* ---------Layout changes -----------*/
 
-nav li { 
-		 display: block;
-         width: 179px;
-		 float: left;
+
+#sitewrapper { width: 959px;
+			   margin: 0auto;
+} 
+
+body {margin: 0 auto;}
+
+nav {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+
+ul {	-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		width: 950px;
+		margin: 0 auto;
+		list-style-type: none;
+		padding: 0;
+		overflow: hidden;
+}
+
+
+nav li { display: block;
+         width: 157px;
+         height: 38px;
+         float: left;
 		 background-color: #c02509;
 		 text-align: center;
 }
 
-a:link {
-		text-decoration: none;
-		display: block;
-		color: #000;
-
-
+li a {	 width: 157 px;
+		 height: 38px;
 }
 
-a:hover{ 
+nav a {	
+		line-height: 38px;
+		display: block;
+}
+
+p{	font-family: georgia;
+	clear: both;
+}
+
+a:link {
+		text-decoration: none;
+		color: #000;
+}
+
+nav a:hover{ 
 		 background-color: #000;
 		 color: #fff;
 		 text-decoration: none;
@@ -32,8 +67,10 @@ a:visited: {
 
 h1 a:hover {
 	width: 375px;
-	background-color: #fff;
 }
+
+
+
 
 
 
