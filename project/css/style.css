@@ -30,6 +30,11 @@ a:visited: {
 			 color: c0f;
 }
 
+h1 a:hover {
+	width: 375px;
+	background-color: none;
+	diplay: none;
+}
 
 
 
