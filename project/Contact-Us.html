@@ -27,6 +27,12 @@
 <h2> Please select a reason for contacting us </h2>
 <form> <!-- Currently not using: method, get, post, or action as this is not live --> 
 
+	
+<radiogroup>
+  <radio id = "scheduleclass" label= "Schedule A Class"/>
+  <radio id = "Partyinfo" label = "Party Information"/>
+</radiogroup>
+
 	<div>
 		<label for = "ScheduleClass"> Schedule A Class </label> 
 		<input type = "radio" name = "name_first" id = "ScheduleClass" />
@@ -72,7 +78,7 @@
 		<input type = "text" name = "phone" id = "phone" />
 	</div> 
 
-	<p> Best time to contact you </p>
+	<p class = "formhead"> Best time to contact you: </p>
 
 	<div>
 		<label for = "Morning"> Morning </label> 
