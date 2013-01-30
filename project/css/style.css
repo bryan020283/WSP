@@ -7,7 +7,7 @@
 #sitewrapper { width: 959px;
 			   margin: 0auto;
 			   /*background-color: #f26522; */			   
-			   background: url(../images/escheresque_ste.png)
+			   background: url(../images/escheresque_ste.png);
 			   margin-top: 0;
 } 
 img { border: 2px solid #074d46;
