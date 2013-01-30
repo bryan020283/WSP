@@ -21,6 +21,8 @@ h1 {margin: 0;
 
 h2, h3 {text-shadow: 3px 3px 3px #c02509;
 		color: #fff;
+		margin: none;
+		padding: none;
 }
 
 nav {width: 959px;
@@ -84,16 +86,21 @@ h1 a:hover {
 	width: 375px;
 }
 
-.thomaspicture {
-
+.debra {
+	padding: none;
+	margin-right: 110px;
 	float: right;
+
 }
 
-.thomaspicturecaption {clear: right;}
+.thomas {
+	float: right;
+	margin-left: none;
+}
 
 
 
-
+footer {clear: right;}
 
 
 
