@@ -19,10 +19,13 @@ h1 {margin: 0;
 	padding: 0;
 }
 
-h2, h3 {text-shadow: 3px 3px 3px #c02509;
-		color: #fff;
-		margin: none;
-		padding: none;
+h2, h3, h4 {
+	font-size: 20px;
+	text-shadow: 3px 3px 3px #c02509;
+	color: #fff;
+	margin: none;
+	padding: none;
+	clear: both;
 }
 
 nav {width: 959px;
