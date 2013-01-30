@@ -19,7 +19,9 @@ h1 {margin: 0;
 	padding: 0;
 }
 
-h2, h3 {text-shadow: 3px 3px 3px #c02509;}
+h2, h3 {text-shadow: 3px 3px 3px #c02509;
+		color: #fff;
+}
 
 nav {width: 959px;
 	-webkit-border-radius: 7px;
@@ -55,7 +57,7 @@ nav a {	line-height: 38px;
 }
 
 p{	font-family: georgia;
-	clear: both;
+	
 }
 
 article {border: 2px solid #074d46;
@@ -84,13 +86,12 @@ h1 a:hover {
 
 .thomaspicture {
 
-	float: left;
-}
-
-.debra {
-	margin: 0 auto;
 	float: right;
 }
+
+.thomaspicturecaption {clear: right;}
+
+
 
 
 
@@ -109,6 +110,9 @@ h1 a:hover {
 
  /* iPhone 5 only -- I have the iphone 5 now so I wanted to use this media querie specification --- */
 
-@media only screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+			#container{
+				background-color: yellow;
+			}
+		}
 
