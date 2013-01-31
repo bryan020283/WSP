@@ -5,10 +5,11 @@
 	<link rel="stylesheet" href="css/style.css" title ="CSS Title" type="text/css" media="screen">
 	<title> Request cooking class schedule culinary training | Truffles and Trifles | Orlando Floria Winter Park </title>
 </head>
-<div id = "sitewrapper">
+
 <body>
+	<div id = "sitewrapper">
 	<header>
-		<h1> <a href = "index.html"> <img src ="images/Truffles-Trifles-logo.png "border = "2" alt = "Truffles and Trifles Logo" title = "Truffles and Trifles Logo" </a> 
+		<h1> <a href = "index.html"> <img class = "logo" src ="images/Truffles-Trifles-logo.png "border = "2" alt = "Truffles and Trifles Logo" title = "Truffles and Trifles Logo" </a> 
 		</h1>
 	</header>
 	
@@ -27,38 +28,38 @@
 <h2> Please select a reason for contacting us </h2>
 <form> <!-- Currently not using: method, get, post, or action as this is not live --> 
 
-	
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=711+W+Smith+St,+Orlando,+FL&amp;aq=0&amp;oq=711+&amp;sll=38.744659,-77.487094&amp;sspn=0.065872,0.133896&amp;ie=UTF8&amp;hq=&amp;hnear=711+W+Smith+St,+Orlando,+Florida+32804&amp;t=m&amp;z=14&amp;ll=28.572334,-81.389882&amp;output=embed"></iframe>
 
 <fieldset>
 	<legend>Purpose of Contact</legend>
 	<div class = "ContactReason">
 		<label for = "ScheduleClass"> Schedule A Class </label> 
-		<input type = "radio" name = "reason" id = "ScheduleClass" />
+		<input type = "checkbox" name = "reason" id = "ScheduleClass" />
 	</div> 
 
 	<div class = "ContactReason">
 		<label for = "Partyinformation"> Party Information </label> 
-		<input type = "radio" name = "reason" id = "Partyinformation" /> 
+		<input type = "checkbox" name = "reason" id = "Partyinformation" /> 
 	</div> 
 	
 	<div class = "ContactReason">
 		<label for = "GiftBasket"> Gift Basket Information </label> 
-		<input type = "radio" name = "reason" id = "GiftBasket" /> 
+		<input type = "checkbox" name = "reason" id = "GiftBasket" /> 
 	</div> 
 
 	<div class = "ContactReason">
 		<label for = "RequestCall"> Request A Call Back </label> 
-		<input type = "radio" name = "reason" id = "RequestCall" /> 
+		<input type = "checkbox" name = "reason" id = "RequestCall" /> 
 	</div> 
 
 	<div class = "ContactReason">
 		<label for = "RequestInfo"> Request Information </label> 
-		<input type = "radio" name = "reason" id = "RequestInfo" /> 
+		<input type = "checkbox" name = "reason" id = "RequestInfo" /> 
 	</div> 
 
 	<div>
 		<label for = "Newsletter"> Sign Up For Our Newsletter </label> 
-		<input type = "radio" name = "reason" id = "Newsletter" /> 
+		<input type = "checkbox" name = "reason" id = "Newsletter" /> 
 	</div> 
 </fieldset>
 <fieldset> 
@@ -78,25 +79,41 @@
 		<input type = "text" name = "phone" id = "phone" />
 	</div> 
 </fieldset>
+<fieldset class = "phone-number-address">
+<p class = "phone-number"> 
+	Phone Number:  (407) 648-0828
+</p>
+<p class = "address-line-1">
+	Address:  711 West Smith St.  
+</p>
+<p class = "address-line-2">
+	Orlando, FL 32804
+</p>
+</fieldset>
 <fieldset>
 	<legend>Contact Time</legend>
 	<p class = "formhead"> Best time to contact you: </p>
 
-	<div>
+	<div class = "best-time">
 		<label for = "Morning"> Morning </label> 
 		<input type = "radio" name = "name_first" id = "Morning" /> 
 	</div> 
 
-	<div>
+	<div class = "best-time">
 		<label for = "Afternoon"> Afternoon </label> 
 		<input type = "radio" name = "name_first" id = "Afternoon" /> 
 	</div> 
 
-	<div>
+	<div class = "best-time">
 		<label for = "Evening"> Evening </label> 
 		<input type = "radio" name = "name_first" id = "Evening" /> 
 	</div> 
+	<div class = "best-time">
+		<label for = "Any-Time"> Any Time </label> 
+		<input type = "radio" name = "name_first" id = "Any-Time" /> 
+	</div> 
 </fieldset>
+
 <fieldset>
 	<legend>Comments</legend>
 	<div>	
@@ -107,9 +124,9 @@
 		<input  class = "sendbutton" type = "button" value = "Submit Form"> 
 
 </form> 
-</div> <!-- Close Site Wrapper -->
-
 <footer><p> &copy; Copyright 2012 Truffles and Trifles.  All rights reserved. </p> </footer> 
+
+</div> <!-- Close Site Wrapper -->
 
 </body>
 </html>

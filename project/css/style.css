@@ -10,6 +10,18 @@
 			   background: url(../images/escheresque_ste.png);
 			   margin-top: 0;
 } 
+
+/*  ------LOGO AREA -----------------*/
+
+.logo {
+
+	border: 15px solid #074d46;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
 img { border: 2px solid #074d46;
 }
 
@@ -26,6 +38,9 @@ h2, h3, h4 {
 	margin: none;
 	padding: none;
 	clear: both;
+	background-color: #000;
+	text-align: center; 
+
 }
 
 nav {width: 959px;
@@ -89,19 +104,22 @@ h1 a:hover {
 	width: 375px;
 }
 
-.debra {
+.debra-cooking {
 	padding: none;
-	margin-left: none;
+	margin-right: 60px ;
 	float: right;
-
 }
 
-.thomas {
-	float: right;
-	margin-left: none;
+.debrapicturecaption {
+
+	clear: right;
 }
 
-
+.thomas-cooking {
+	float: right;
+	margin-left: none;
+	margin-right: 110px;
+}
 
 footer {clear: right;}
 
@@ -110,15 +128,16 @@ label {
 	padding-bottom: 15px;
 }
 
-.formhead {
-	color: #fff;
-	font-weight: bold;	
-}
-
 legend {
 
 	color: #fff;
 	font-weight: bold;
+}
+/*   ---------Area for form details    */
+.formhead {
+	color: #fff;
+	font-weight: bold;	
+	text-decoration: underline;
 }
 
 .ContactReason {
@@ -131,10 +150,98 @@ fieldset {
 	width: 235px;
 	background-color: darkgreen;
 	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.best-time {
+
+	margin-bottom: 5px;
+}
+
+.sendbutton {
+
+	color: #fff;
+	background-color: darkgreen;
+	margin-left: 300px;
+	width: 400px;
+	
+}
+
+.phone-number{
+
+	float: right;
+	color: #fff;
+	margin-right: 100px;
+}
+
+.address-line-1 {
+
+	clear: right;
+	float: right;
+	color: #fff;
+	margin-right: 120px;
+}
+
+.address-line-2 {
+
+	clear: right;
+	float: right;
+	color: #fff;
+	margin-right: 145px;
+}
+
+.phone-number-address {
+
+	clear: right;
+	float: right;
+	margin-top: 15px;
+	margin-right: 315px;
+	
 }
 
 
+/* -------Form details area ending -------*/
 
+h4 {
+
+	background-color: #000;
+	width: 145px;
+	height: 30px;
+	display: block;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	margin-left: 5px;
+	padding: 10px 2px 3px 2px;
+
+}
+
+/*   ----------embedded map on contact page --------*/
+
+iframe {
+
+	border-style: solid;
+	border-color: darkgreen;
+	border-width: 24px;
+	float: right;
+	margin-right: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	
+}
+
+/*   ----------END embedded map on contact page --------*/
+
+/*   ------------FOOTER LAYOUT CHANGES ----------------*/
+footer {
+
+	margin-left: 300px;
+	color: #fff;
+}
+
+/*   ------------END FOOTER LAYOUT CHANGES ----------------*/
 
 
 /*------------------ MEDIA QUERIES  --------------------*/
