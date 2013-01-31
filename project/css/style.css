@@ -22,6 +22,29 @@ html {background-color: #f26522; }
 	max-width: 100%;
 }
 
+header h2 {
+
+	text-align: center;
+	margin-bottom: 0px; 
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #074d46 ;
+
+	
+}
+
+.slogan {
+
+	width: 100%;
+	background-color: #000;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: .8em;
+	margin-bottom: 0px; 
+	
+}
+/* ------End logo / header area --------*/
 
 img { border: 2px solid #074d46;
 	max-width: 100%;
@@ -43,11 +66,14 @@ h2, h3, h4 {
 
 }
 
-nav {width: 959px;
+/* --------------NAV AREA --------------*/
+nav {
+	
+	width: 959px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	
 }
 
@@ -102,6 +128,8 @@ a:visited {
 h1 a:hover {
 	width: 375px;
 }
+
+/* -----------END NAV  AREA --------------------------*/
 /*  --------- IMAGE -SPOUSE PROGRAM PAGE EDITS ----- */
 
 .thomas-cooking {
