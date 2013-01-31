@@ -3,10 +3,10 @@
 
 /* ---------Layout changes -----------*/
 
+html {background-color: #f26522; }
 
-#sitewrapper { width: 959px;
-			   margin: 0auto;
-			   /*background-color: #f26522; */			   
+#sitewrapper { max-width: 960px;
+			   margin: 0 auto;
 			   background: url(../images/escheresque_ste.png);
 			   margin-top: 0;
 } 
@@ -37,8 +37,6 @@ h2, h3, h4 {
 	font-size: 20px;
 	text-shadow: 3px 3px 3px #c02509;
 	color: #fff;
-	margin: none;
-	padding: none;
 	clear: both;
 	background-color: #000;
 	text-align: center; 
@@ -74,12 +72,11 @@ nav li { display: block;
 
 
 nav a {	line-height: 38px;
-		vertical-align: center; 
-		
+				
 }
 
 p{	font-family: georgia;
-	
+	line-height: 1.5;
 }
 
 article {border: 2px solid #074d46;
@@ -98,33 +95,51 @@ nav a:hover{
 		 display: block;
 }
 
-a:visited: {
-			 color: c0f;
+a:visited {
+			 color: #fff;
 }
 
 h1 a:hover {
 	width: 375px;
 }
-
+/*  --------- IMAGE -SPOUSE PROGRAM PAGE EDITS ----- */
 .debra-cooking {
-	padding: none;
-	margin-right: 60px ;
-	float: right;
-}
+	clear: left;
+	float: left;
 
-.debrapicturecaption {
-
-	clear: right;
 }
 
 .thomas-cooking {
+	
+	clear: left;
 	float: right;
-	margin-left: none;
-	margin-right: 110px;
+
 }
 
-footer {clear: right;}
+.debrapicturecaption {
+	clear: left;
+	float: left;
+	color: #fff;
 
+}
+
+.thomaspicturecaption {
+	clear: right;
+	float: right;
+	color: #fff;
+
+}
+
+.client-image-container {
+	width: 650px;
+	margin: 0 auto;
+} 
+
+
+
+/*  ---------END IMAGE -SPOUSE PROGRAM PAGE EDITS ----- */
+
+/*   ---------Area for form details -----------   */
 label {
 	color: #fff;
 	padding-bottom: 15px;
@@ -135,7 +150,7 @@ legend {
 	color: #fff;
 	font-weight: bold;
 }
-/*   ---------Area for form details -----------   */
+
 .formhead {
 	color: #fff;
 	font-weight: bold;	
@@ -204,19 +219,6 @@ fieldset {
 
 /* -------Form details area ending -------*/
 
-h4 {
-
-	background-color: #000;
-	width: 145px;
-	height: 30px;
-	display: block;
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	margin-left: 5px;
-	padding: 10px 2px 3px 2px;
-
-}
 
 /*   ----------embedded map on contact page --------*/
 
@@ -242,24 +244,34 @@ footer {
 
 	margin-left: 300px;
 	color: #fff;
+	clear: right;
 }
 
 /*   ------------END FOOTER LAYOUT CHANGES ----------------*/
 
 
+
+
+
 /*------------------ MEDIA QUERIES  --------------------*/
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 959px) {}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+	img {max-width: 100%}
+}
 
 /* mobile landscape size to tablet portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	img {max-width: 100%}
+}
 
  /* iPhone 5 only -- I have the iphone 5 now so I wanted to use this media querie specification --- */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-			#container{
-				background-color: yellow;
-			}
-		}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
+
+	
+
+		
 
