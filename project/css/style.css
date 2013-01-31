@@ -30,6 +30,12 @@ header img {
 
 }
 
+header h2 {
+
+	margin-bottom: 0px; 
+	text-align: center; 
+}
+
 .slogan {
 
 	width: 100%;
