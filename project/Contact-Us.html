@@ -29,37 +29,39 @@
 
 	
 
-
-	<div>
+<fieldset>
+	<legend>Purpose of Contact</legend>
+	<div class = "ContactReason">
 		<label for = "ScheduleClass"> Schedule A Class </label> 
-		<input type = "radio" name = "group1" id = "ScheduleClass" />
+		<input type = "radio" name = "reason" id = "ScheduleClass" />
 	</div> 
 
-	<div>
+	<div class = "ContactReason">
 		<label for = "Partyinformation"> Party Information </label> 
-		<input type = "radio" name = "group1" id = "Partyinformation" /> 
+		<input type = "radio" name = "reason" id = "Partyinformation" /> 
 	</div> 
 	
-	<div>
+	<div class = "ContactReason">
 		<label for = "GiftBasket"> Gift Basket Information </label> 
-		<input type = "radio" name = "group1" id = "GiftBasket" /> 
+		<input type = "radio" name = "reason" id = "GiftBasket" /> 
 	</div> 
 
-	<div>
+	<div class = "ContactReason">
 		<label for = "RequestCall"> Request A Call Back </label> 
-		<input type = "radio" name = "group1" id = "RequestCall" /> 
+		<input type = "radio" name = "reason" id = "RequestCall" /> 
 	</div> 
 
-	<div>
+	<div class = "ContactReason">
 		<label for = "RequestInfo"> Request Information </label> 
-		<input type = "radio" name = "group1" id = "RequestInfo" /> 
+		<input type = "radio" name = "reason" id = "RequestInfo" /> 
 	</div> 
 
 	<div>
 		<label for = "Newsletter"> Sign Up For Our Newsletter </label> 
-		<input type = "radio" name = "group1" id = "Newsletter" /> 
+		<input type = "radio" name = "reason" id = "Newsletter" /> 
 	</div> 
-
+</fieldset>
+<fieldset>
 	<div>
 		<label for = "name"> First Name </label> 
 		<input type = "text" name = "name_first" id = "name" /> 
@@ -74,7 +76,8 @@
 		<label for = "phone" > Phone Number </label>
 		<input type = "text" name = "phone" id = "phone" />
 	</div> 
-
+</fieldset>
+<fieldset>
 	<p class = "formhead"> Best time to contact you: </p>
 
 	<div>
@@ -91,16 +94,17 @@
 		<label for = "Evening"> Evening </label> 
 		<input type = "radio" name = "name_first" id = "Evening" /> 
 	</div> 
-	
+</fieldset>
+<fieldset>
 	<div>	
 		<label for = "comments"> Additional Comments </label> 
 		<textarea name = "text area" rows = "7" cols = "40" id ="comments"> </textarea>
 	</div>
-
-	<div> <a href = "#"> Submit Form </a>
+</fieldset>	
+		<input  class = "sendbutton" type = "button" value = "Submit Form"> 
 
 </form> 
-</div>
+</div> <!-- Close Site Wrapper -->
 
 <footer><p> &copy; Copyright 2012 Truffles and Trifles.  All rights reserved. </p> </footer> 
 

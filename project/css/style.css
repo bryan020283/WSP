@@ -111,8 +111,28 @@ label {
 }
 
 .formhead {
-	color: #fff;	
+	color: #fff;
+	font-weight: bold;	
 }
+
+legend {
+
+	color: #fff;
+	font-weight: bold;
+}
+
+.ContactReason {
+
+	margin-bottom: 10px;
+}
+
+fieldset {
+
+	width: 235px;
+	background-color: darkgreen;
+	margin-bottom: 20px;
+}
+
 
 
 
