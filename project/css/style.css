@@ -216,6 +216,11 @@ fieldset {
 	
 }
 
+textarea {
+
+	width: 400px;
+}
+
 
 /* -------Form details area ending -------*/
 
