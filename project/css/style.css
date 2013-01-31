@@ -19,10 +19,12 @@
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	max-width: 100%;
 }
 
 
 img { border: 2px solid #074d46;
+	max-width: 100%;
 }
 
 body {margin: 0 auto;}
@@ -133,7 +135,7 @@ legend {
 	color: #fff;
 	font-weight: bold;
 }
-/*   ---------Area for form details    */
+/*   ---------Area for form details -----------   */
 .formhead {
 	color: #fff;
 	font-weight: bold;	
@@ -225,9 +227,10 @@ iframe {
 	border-width: 24px;
 	float: right;
 	margin-right: 100px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	outline: 1px solid #fff;
+	-webkit-outline-radius: 10px;
+	-moz-outline-radius: 10px;
+	outline-radius: 10px;
 	
 	
 }
