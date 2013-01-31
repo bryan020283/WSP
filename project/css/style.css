@@ -197,7 +197,7 @@ fieldset {
 	clear: right;
 	float: right;
 	margin-top: 15px;
-	margin-right: 315px;
+	margin-right: 150px;
 	
 }
 
@@ -226,7 +226,7 @@ iframe {
 	border-color: darkgreen;
 	border-width: 24px;
 	float: right;
-	margin-right: 100px;
+	margin-right: 50px;
 	outline: 1px solid #fff;
 	-webkit-outline-radius: 10px;
 	-moz-outline-radius: 10px;
