@@ -64,11 +64,15 @@ h1 {margin: 0;
 }
 
 h2, h3, h4 {
+	display: block;
+	height: 30px;
+	padding-top: 7px;
 	font-size: 20px;
 	text-shadow: 3px 3px 3px #c02509;
 	color: #fff;
 	clear: both;
 	background-color: #000;
+	background-height: 35px;
 	text-align: center; 
 
 }
@@ -365,8 +369,9 @@ th {
 #schedule-class-page h2 {
 
 	font-size: 20px; 
-	color: #c02509;
+	color: #fff;
 	text-shadow: none;
+	text-shadow: 3px 3px 3px #c02509;
 }
 
 
