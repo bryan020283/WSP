@@ -4,22 +4,25 @@
 /* ---------Layout changes -----------*/
 
 html /*{background-color: #f26522; }*/
-	{background-color: #fff;
-	border: transparent;}
+	{
+		background-color: #fff;
+	
+	}
 
 #sitewrapper { max-width: 960px;
 			   margin: 0 auto;
 			   background: url(../images/escheresque_ste.png);
 			   margin-top: 0;
+
 } 
 
 /*  ------LOGO AREA -----------------*/
 
-.logo {
+header h1 {
 
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
 	max-width: 100%;
+	border-right: 1px solid #fff;
+	max-height: 193px; 
 }
 
 header img {
