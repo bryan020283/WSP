@@ -290,12 +290,18 @@ iframe {
 
 /*   ------------FOOTER LAYOUT CHANGES ----------------*/
 footer {
-
-	margin-left: 300px;
+	width: 960px;
+	height: 150px;
+	margin-top: 80px;
 	color: #fff;
 	clear: right;
+	background-color: #7b9e9c;
 }
 
+footer p {
+
+	text-align: center; 
+}
 /* ----------------HOME PAGE IMAGE AND LAYOUT CHANGES */
 
 .plate-of-food {
@@ -314,6 +320,14 @@ footer {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 
+}
+
+.requestclass {
+
+	color: #fff;
+	background-color: darkgreen;
+	margin-left: 300px;
+	width: 400px;
 }
 
 /*  --------------END OF PAGE IMAGE AND LAYOUT CHANGES*/
