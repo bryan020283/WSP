@@ -55,7 +55,7 @@ header h2 {
 }
 /* ------End logo / header area --------*/
 
-img { border: 3px solid #074d46;
+img { border: 3px solid #A9F5BC;
 	max-width: 100%;
 }
 
@@ -76,6 +76,7 @@ h2, h3, h4 {
 	background-color: #000;
 	background-height: 35px;
 	text-align: center; 
+	margin: 0px;
 
 }
 
@@ -120,7 +121,6 @@ p{	font-family: georgia;
 }
 
 article {border: 2px solid #074d46;
-		 /*background-color: #7b9e9c;*/
 		 background-color: #A9F5BC; 
 }
 
@@ -297,16 +297,18 @@ iframe {
 
 /*   ------------FOOTER LAYOUT CHANGES ----------------*/
 footer {
+	margin-top: 0px;
 	width: 960px;
 	height: 150px;
 	color: #fff;
 	clear: right;
-	background-color: #7b9e9c;
+	background-color: #000;
 }
 
 footer p {
 
 	text-align: center; 
+	margin: 0px;
 }
 /* ----------------HOME PAGE IMAGE AND LAYOUT CHANGES */
 
