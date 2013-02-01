@@ -3,7 +3,7 @@
 
 /* ---------Layout changes -----------*/
 
-html /*{background-color: #f26522; }*/
+html {background-color: darkgreen; }
 	{
 		background-color: #fff;
 	
@@ -197,6 +197,7 @@ legend {
 .ContactReason {
 
 	margin-bottom: 10px;
+	margin-left: 52px;
 }
 
 fieldset {
@@ -210,6 +211,7 @@ fieldset {
 .best-time {
 
 	margin-bottom: 5px;
+	margin-left: 52px;
 }
 
 .sendbutton {
@@ -259,7 +261,7 @@ fieldset {
 	clear: right;
 	float: right;
 	margin-top: 15px;
-	margin-right: 150px;
+	margin-right: 116px;
 	
 }
 
@@ -271,11 +273,13 @@ textarea {
 .comments-area {
 
 	width: 400px;
+	margin-left: 52px;
 }
 
 .basicinfo {
 
 	margin-bottom: 7px; 
+	margin-left: 52px;
 }
 
 /* -------Form details area ending -------*/
