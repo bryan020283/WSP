@@ -16,6 +16,20 @@ html {background-color: darkgreen; }
 
 } 
 
+/* --------INDEX PAGE ------------*/
+
+#index-background {
+
+	background-color: #A9F5BC; 
+}
+
+.nav-container {
+
+	background-color: #000;
+}
+
+/* --------END INDEX PAGE ---------*/
+
 /*  ------LOGO AREA -----------------*/
 
 header h1 {
