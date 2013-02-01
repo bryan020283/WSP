@@ -217,7 +217,8 @@ fieldset {
 
 	float: right;
 	color: #fff;
-	margin-right: 100px;
+	padding: 0px;
+	width: 300px;
 }
 
 .address-line-1 {
@@ -225,7 +226,9 @@ fieldset {
 	clear: right;
 	float: right;
 	color: #fff;
-	margin-right: 120px;
+	margin-right: 98px;
+	padding: 0px;
+	width: 200px;
 }
 
 .address-line-2 {
@@ -233,7 +236,9 @@ fieldset {
 	clear: right;
 	float: right;
 	color: #fff;
-	margin-right: 145px;
+	margin-right: 162px;
+	padding: 0px;
+
 }
 
 .phone-number-address {
