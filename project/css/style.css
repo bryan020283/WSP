@@ -37,6 +37,8 @@ header h1 {
 	max-width: 100%;
 	border-right: 1px solid #fff;
 	max-height: 193px; 
+	margin: 0px;
+	padding: 0px;
 }
 
 header img {
@@ -422,6 +424,7 @@ th {
 
 	img {max-width: 100%}
 }
+
 
 /* mobile landscape size to tablet portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
