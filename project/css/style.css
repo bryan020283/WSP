@@ -41,6 +41,8 @@ header h2 {
 
 .slogan {
 
+	text-align: center; 
+	padding-top: 10px;
 	width: 99%;
 	background-color: #000;
 	float: left;
@@ -118,7 +120,8 @@ p{	font-family: georgia;
 }
 
 article {border: 2px solid #074d46;
-		 background-color: #7b9e9c;
+		 /*background-color: #7b9e9c;*/
+		 background-color: #A9F5BC; 
 }
 
 a:link {
@@ -296,7 +299,6 @@ iframe {
 footer {
 	width: 960px;
 	height: 150px;
-	margin-top: 80px;
 	color: #fff;
 	clear: right;
 	background-color: #7b9e9c;
