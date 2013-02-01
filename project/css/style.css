@@ -334,7 +334,44 @@ footer p {
 
 /*   ------------END FOOTER LAYOUT CHANGES ----------------*/
 
+/* -------------TABLE LAYOUTS FOR THE CLASS SCHEDULE PAGE --------*/
 
+table {
+
+	color: #000;
+	border: 1px solid #fff;
+}
+
+tr {
+
+	color: #000;
+	border: 1px solid #fff;
+}
+
+td {
+
+	color: #000;
+	border: 1px solid #fff;
+	background-color: #7b9e9c; 
+}
+
+th {
+
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #c02509;
+}
+
+#schedule-class-page h2 {
+
+	font-size: 20px; 
+	color: #c02509;
+	text-shadow: none;
+}
+
+
+
+/* -------------END TABLE LAYOUTS FOR THE CLASS SCHEDULE PAGE --------*/
 
 
 
