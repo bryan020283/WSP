@@ -354,20 +354,23 @@ tr {
 
 	color: #000;
 	border: 1px solid #fff;
+
 }
 
 td {
 
 	color: #000;
 	border: 1px solid #fff;
-	background-color: #7b9e9c; 
+	background-color: #A9F5BC; 
+	padding: 5px 5px 5px 10px; 
 }
 
 th {
 
 	color: #fff;
 	border: 1px solid #fff;
-	background-color: #c02509;
+	/*background-color: #c02509;*/
+	background-color: #173B0B; 
 }
 
 #schedule-class-page h2 {
