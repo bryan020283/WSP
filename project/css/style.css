@@ -4,7 +4,8 @@
 /* ---------Layout changes -----------*/
 
 html /*{background-color: #f26522; }*/
-	{background-color: #fff;}
+	{background-color: #fff;
+	border: transparent;}
 
 #sitewrapper { max-width: 960px;
 			   margin: 0 auto;
