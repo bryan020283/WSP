@@ -109,6 +109,7 @@ nav a {	line-height: 38px;
 
 p{	font-family: georgia;
 	line-height: 1.5;
+	padding-left: 10px;
 }
 
 article {border: 2px solid #074d46;
