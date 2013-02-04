@@ -318,6 +318,12 @@ iframe {
 	
 }
 
+/* ----------CLASSES PAGE LAYOUT CHANGES --------*/
+
+
+
+/* ----------END CLASSES PAGE LAYOUT CHANGES --------*/
+
 /*   ----------END embedded map on contact page --------*/
 
 /*   ------------FOOTER LAYOUT CHANGES ----------------*/
@@ -337,23 +343,7 @@ footer p {
 }
 /* ----------------HOME PAGE IMAGE AND LAYOUT CHANGES */
 
-.plate-of-food {
 
-	margin-left: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-
-.cooking-teacher {
-
-	margin-left: 5px;
-	margin-right: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-
-}
 
 .requestclass {
 
@@ -416,27 +406,341 @@ th {
 /* -------------END TABLE LAYOUTS FOR THE CLASS SCHEDULE PAGE --------*/
 
 
+/* -------------LAYOUTS FOR CLASSES PAGE --------*/
+
+
+
+/* -------------LAYOUTS FOR CLASSES PAGE --------*/
+
+
 
 /*------------------ MEDIA QUERIES  --------------------*/
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
 
-	img {max-width: 100%}
+	
+#index-background {
+
+	background-color: #A9F5BC; 
 }
 
+img {max-width: 100%}
 
+.plate-of-food {
+
+	margin-left: 220px;
+
+}
+
+.cooking-teacher {
+
+	margin-left: 220px;
+	
+}
+
+.requestclass {
+
+	margin-left: 260px;
+}
+
+.sendbutton {
+
+	margin-left: 260px;	
+}
+
+nav li {
+
+	float: none;
+}
+
+/* ------form elements --------*/
+
+
+.formhead {
+	color: #fff;
+	font-weight: bold;	
+	text-decoration: underline;
+}
+
+.ContactReason {
+
+	margin-bottom: 10px;
+	margin-left: 52px;
+}
+
+fieldset {
+
+	width: 235px;
+	background-color: darkgreen;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.best-time {
+
+	margin-bottom: 5px;
+	margin-left: 52px;
+}
+
+.sendbutton {
+
+	color: #fff;
+	background-color: darkgreen;
+	margin-left: 300px;
+	width: 400px;
+	padding: 5px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	
+}
+
+.phone-number{
+
+	float: none;
+	color: #fff;
+	padding: 0px;
+	width: 300px;
+}
+
+.address-line-1 {
+
+	clear: right;
+	float: none;
+	color: #fff;
+	margin-right: 98px;
+	padding: 0px;
+	width: 200px;
+}
+
+.address-line-2 {
+
+	clear: right;
+	float: none;
+	color: #fff;
+	margin-right: 162px;
+	padding: 0px;
+
+}
+
+.phone-number-address {
+
+	clear: right;
+	float: none;
+	margin-top: 15px;
+	margin-right: 116px;
+	
+}
+
+textarea {
+
+	width: 400px;
+}
+
+.comments-area {
+
+	width: 400px;
+	margin-left: 52px;
+}
+
+.basicinfo {
+
+	margin-bottom: 7px; 
+	margin-left: 52px;
+}
+
+iframe {
+
+	clear: both;
+	float: none;
+}
+/* ----------end form elements - -----------*/
+
+
+}
 /* mobile landscape size to tablet portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-	img {max-width: 100%}
+
+#index-background {
+
+background-color: #A9F5BC; 
 }
 
- /* iPhone 5 only -- I have the iphone 5 now so I wanted to use this media querie specification --- */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
+img {max-width: 100%}
 
+.requestclass {
+
+	margin-left: 180px;
+}
+
+.plate-of-food {
+
+	margin-left: 130px;
+
+}
+
+.cooking-teacher {
+
+	margin-left: 130px;
 	
+}
 
-		
+nav li {
 
+	float: none;
+}
+
+footer p {
+
+	margin-right: 200px;
+}
+
+
+/* ------form elements --------*/
+
+
+.formhead {
+	color: #fff;
+	font-weight: bold;	
+	text-decoration: underline;
+}
+
+.ContactReason {
+
+	margin-bottom: 10px;
+	margin-left: 52px;
+}
+
+fieldset {
+
+	width: 235px;
+	background-color: darkgreen;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.best-time {
+
+	margin-bottom: 5px;
+	margin-left: 52px;
+}
+
+.sendbutton {
+
+margin-left: 180px;
+	
+}
+
+.phone-number{
+
+	float: none;
+	color: #fff;
+	padding: 0px;
+	width: 300px;
+}
+
+.address-line-1 {
+
+	clear: right;
+	float: none;
+	color: #fff;
+	margin-right: 98px;
+	padding: 0px;
+	width: 200px;
+}
+
+.address-line-2 {
+
+	clear: right;
+	float: none;
+	color: #fff;
+	margin-right: 162px;
+	padding: 0px;
+
+}
+
+.phone-number-address {
+
+	clear: right;
+	float: none;
+	margin-top: 15px;
+	margin-right: 116px;
+	
+}
+
+textarea {
+
+	width: 400px;
+}
+
+.comments-area {
+
+	width: 400px;
+	margin-left: 52px;
+}
+
+.basicinfo {
+
+	margin-bottom: 7px; 
+	margin-left: 52px;
+}
+
+iframe {
+
+	clear: both;
+	float: none;
+}
+/* ----------end form elements - -----------*/
+
+}
+ /*  ----------------MOBILE SCREEN VIEW-- */
+
+@media only screen and (max-width: 479px) { 
+
+
+#index-background {
+
+	background-color: #F4FA58; 
+}
+
+img {
+
+	max-width: 100%
+}
+
+
+nav li {
+
+	float: none;
+}
+
+
+.requestclass {
+
+	margin-left: 100px;
+	width: 200px;
+}
+
+.sendbutton {
+
+	margin-left: 100px;
+	width: 200px;
+
+}
+
+footer p {
+
+	margin-right: 500px;
+}
+
+.comments-area {
+
+	margin-left: 52px;
+}
+
+
+}
