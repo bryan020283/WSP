@@ -317,7 +317,7 @@ iframe {
 	
 	
 }
-
+/*   ----------END embedded map on contact page --------*/
 /* ----------CLASSES PAGE LAYOUT CHANGES --------*/
 
 .classes-page-examples {
@@ -332,7 +332,7 @@ iframe {
 
 /* ----------END CLASSES PAGE LAYOUT CHANGES --------*/
 
-/*   ----------END embedded map on contact page --------*/
+
 
 /*   ------------FOOTER LAYOUT CHANGES ----------------*/
 footer {
@@ -363,6 +363,17 @@ footer p {
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
+}
+
+.plate-of-food {
+
+	margin-left: 5px;
+	border: 2px solid #000;
+}
+
+.cooking-teacher {
+
+	border: 2px solid #000;	
 }
 
 /*  --------------END OF PAGE IMAGE AND LAYOUT CHANGES*/
@@ -611,26 +622,6 @@ footer p {
 /* ------form elements --------*/
 
 
-.formhead {
-	color: #fff;
-	font-weight: bold;	
-	text-decoration: underline;
-}
-
-.ContactReason {
-
-	margin-bottom: 10px;
-	margin-left: 52px;
-}
-
-fieldset {
-
-	width: 235px;
-	background-color: darkgreen;
-	margin-bottom: 20px;
-	border-radius: 5px;
-}
-
 .best-time {
 
 	margin-bottom: 5px;
@@ -712,7 +703,7 @@ iframe {
 
 #index-background {
 
-	background-color: #F4FA58; 
+	background-color: #A9F5BC;  
 }
 
 img {
@@ -749,6 +740,8 @@ footer p {
 
 	margin-left: 52px;
 }
+
+
 
 
 }
