@@ -28,6 +28,10 @@ html {background-color: darkgreen; }
 	background-color: #000;
 }
 
+#index-background article {
+
+	border: none;
+}
 /* --------END INDEX PAGE ---------*/
 
 /*  ------LOGO AREA -----------------*/
