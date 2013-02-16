@@ -361,6 +361,7 @@ footer p {
 
 .requestclass {
 
+	display: block;
 	color: #fff;
 	background-color: darkgreen;
 	margin-left: 300px;
@@ -369,6 +370,7 @@ footer p {
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
+	text-align: center;
 }
 
 .plate-of-food {
